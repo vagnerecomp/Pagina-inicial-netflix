@@ -1,0 +1,46 @@
+.select-group{
+    position: relative;
+    display: inline-block;
+}
+.select-group select{
+    /* Resetando as configurações do browser para o elemento select */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    /* Dimensões e bordas */
+    width: 118px;
+    height: 36px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    background: transparent;
+    color: #fff;
+
+    /* Text style */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align-last: center;
+}
+.select-group select option{
+    color: #000;
+}
+.select-group img{
+    position: absolute;
+}
+.select-group img.globo{
+    width: 12px;
+    height: 12px;
+    top: 11px;
+    left: 10px;
+}
+.select-group img.arrow{
+    width: 10px;
+    height: 6px;
+    top: 15.5px;
+    right: 11px;
+}
+.select-group select:focus{
+    outline: 1px solid #3c9df7;
+}
