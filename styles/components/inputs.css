@@ -1,5 +1,6 @@
 .txt-group{
     position: relative;
+    display:inline-block
 }
 .txt-group input{
     width: 452px;
@@ -41,8 +42,9 @@
 }
 .txt-group span{
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 15px;
     line-height: 18px;
     color: #FFA00A;
+    padding-left: 2px;
 } 

@@ -6,29 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/containers/index.css">
 </head>
-<body style="background: grey">
-    <button class="btn-medium">Entrar</button>
-    <button class="btn-larger">
-        Vamos lá
-        <img src="assets/btn-arrow.svg" alt="">
-    </button>
-
-    <div class="select-group">
-        <img class="globo" src="assets/globo.svg" alt="Globo icon image">
-        <img class="arrow" src="assets/arrow.svg" alt="Arrow icon image">
-        <select>
-            <option>Português</option>
-            <option>English</option>
-        </select>
+<body>
+<header class="header-background">
+    <div class="header-linear-gradient">
+        <div class="header-logo">
+            <img src="assets/logo.svg" alt="">
+        </div>
+        <button class="btn-medium">Entrar</button>
+        <button class="btn-larger">
+            Vamos lá
+            <img src="assets/btn-arrow.svg" alt="">
+        </button>
+    
+        <div class="select-group">
+            <img class="globo" src="assets/globo.svg" alt="Globo icon image">
+            <img class="arrow" src="assets/arrow.svg" alt="Arrow icon image">
+            <select>
+                <option>Português</option>
+                <option>English</option>
+            </select>
+        </div>
+    
+        <div class="txt-group">
+            <input id="txtForMail" name="txtForMail" placeholder="maratonas" type="text">
+            <label for="txtForMail">Email</label>
+            <br>
+            <span>Mensagem de erro</span>
+        </div>
+        <h1>Filmes, séries e muito mais.
+            Sem limites.</h1>
+        <h2>Assista onde quiser. Cancele quando quiser.</h2>
+        <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
     </div>
-
-    <div class="txt-group">
-        <input id="txtForMail" name="txtForMail" placeholder="maratonas" type="text">
-        <label for="txtForMail">Email</label>
-        <br>
-        <span>Mensagem de erro</span>
-    </div>
+</header>
 </body>
 </html>
