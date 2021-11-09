@@ -1,11 +1,17 @@
+.header-top .header-logo img{
+  width: 132px;
+  height: 36px;
+  padding: 0;
+}
 .header-background{
     background: url('../../assets/background.jpg');
     background-size: cover;
     height: 755px;
+    border-bottom: 8px solid #222222;
 }
 .header-linear-gradient{
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.315) 48.83%, rgba(0, 0, 0, 0.9) 100%);
-  height: 755px;
+    height: 755px;
 }
 h1 {
   font-style: normal;
@@ -33,4 +39,7 @@ p {
   /* identical to box height, or 126% */
   color: #fff;
   text-align: center;
+}
+.main .form-control .hidden{
+  display: none;
 }
