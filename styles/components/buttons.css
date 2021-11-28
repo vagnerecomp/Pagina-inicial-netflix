@@ -1,0 +1,36 @@
+.btn-medium{
+    width: 77px;
+    height: 39px;
+    background: #D81F26;
+    border-radius: 2px;
+    border: none;
+    color:#fff;
+
+    /* Tipografia */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+.btn-larger{
+    width: 182px;
+    height: 60px;
+    background: #D81F26;
+    border: none;
+    color: #fff;
+
+    /* Tipografia */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+}
+.btn-larger img{
+    width: 8.75px;
+    height: 16.25px;
+    margin-left: 7px;
+}
+.btn-medium:hover,
+.btn-larger:hover{
+    background: #F40612;
+}

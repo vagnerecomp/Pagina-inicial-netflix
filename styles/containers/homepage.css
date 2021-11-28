@@ -1,0 +1,29 @@
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 48px;
+    padding-top: 32px;
+    padding-right: 46px;
+}
+.header-top .header-content-r .select-group{
+    margin-right: 32px;
+}
+.main{
+    height: 677px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main .main-content h1{
+    margin-bottom: 22px;
+}
+.main .main-content h2{
+    margin-bottom: 30px;
+}
+.main .main-content p{
+    margin-bottom: 24px;
+}
+.main .form-control{
+    display: flex;
+}
